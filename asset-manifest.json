@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/muzabol2.github.io/restaurant-redux-toolkit/static/css/main.aff0dcc0.css",
-    "main.js": "/muzabol2.github.io/restaurant-redux-toolkit/static/js/main.41638054.js",
-    "index.html": "/muzabol2.github.io/restaurant-redux-toolkit/index.html",
-    "main.aff0dcc0.css.map": "/muzabol2.github.io/restaurant-redux-toolkit/static/css/main.aff0dcc0.css.map",
-    "main.41638054.js.map": "/muzabol2.github.io/restaurant-redux-toolkit/static/js/main.41638054.js.map"
+    "main.css": "/restaurant-redux-toolkit/static/css/main.aff0dcc0.css",
+    "main.js": "/restaurant-redux-toolkit/static/js/main.41638054.js",
+    "index.html": "/restaurant-redux-toolkit/index.html",
+    "main.aff0dcc0.css.map": "/restaurant-redux-toolkit/static/css/main.aff0dcc0.css.map",
+    "main.41638054.js.map": "/restaurant-redux-toolkit/static/js/main.41638054.js.map"
   },
   "entrypoints": [
     "static/css/main.aff0dcc0.css",
