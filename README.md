@@ -1,10 +1,7 @@
 # restaurant-redux-toolkit
 > Study project
 
-Project was created as tool to practice Redux Toolkit that elegantly replaces the plain but more complicated Redux. Even in the official documentation it says it's better to use Toolkit.
-
-replaced display pictures that a user can choose from his/her computer files and give them names.
-Created to practice working with React DOM, React components, hooks, tailwindcss library and Github pages deployment.
+Project was created just to practice Redux Toolkit that elegantly replaces more complicated Redux. Even in the [Redux official documentation](https://redux.js.org/introduction/getting-started) it is written that it's better to use Toolkit, so it is good to know how to use it.
 
 ## Table of contents
 * [General info](#general-info)
