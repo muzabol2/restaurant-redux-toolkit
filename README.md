@@ -56,6 +56,6 @@ Project is not perfect and there is lots that could be improved, but for me this
 ## Inspiration
 Credits for:
 
-[Laith Academy](https://www.youtube.com/@laithacademy) - for idea, good tutorials and help. Thank you.
+[Laith Academy](https://www.youtube.com/@laithacademy) - for ideas and good [tutorials](https://youtu.be/jR4fagDcvrc). Thank you.
 
 And, of course as always - StackOverflow... :)
