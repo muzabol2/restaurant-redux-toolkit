@@ -1,7 +1,61 @@
 # restaurant-redux-toolkit
+> Study project
 
-Here is a deployed on GitHub Pages web application: [link](https://muzabol2.github.io/restaurant-redux-toolkit/)
+Project was created as tool to practice Redux Toolkit that elegantly replaces the plain but more complicated Redux. Even in the official documentation it says it's better to use Toolkit.
 
-I created this web-app only to get familier Redux Toolkit. 
+replaced display pictures that a user can choose from his/her computer files and give them names.
+Created to practice working with React DOM, React components, hooks, tailwindcss library and Github pages deployment.
 
-Here is [Youtube tutorial](https://youtu.be/jR4fagDcvrc) that showed me step-by-step how to create this example web app. 
+## Table of contents
+* [General info](#general-info)
+* [Deployment](#deployment)
+* [Screenshots](#screenshots)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Status](#status)
+* [Inspiration](#inspiration)
+
+## General info
+Project allow a restaurant to:
+* make reservations for customers
+* add order for each of them
+
+## Deployment
+Thanks to Github Pages, I was able to easily deploy the application. You can see and test it yourself! \
+[>> LINK TO DEPLOYED APP HERE <<](https://muzabol2.github.io/restaurant-redux-toolkit/)
+
+## Screenshots
+When added some reservations it will look like this:
+![App Screenshot](./Screenshot1.png)
+
+After that click on a name and add order:
+![App Second Screenshot](./Screenshot2.png)
+
+## Technologies
+Main:
+* React
+* html, css
+
+Libraries:
+* react-redux
+* @reduxjs/toolkit
+
+## Setup
+Copy repository on your machine. To download all needed dependencies (see package.json to know what they are) type in command line in the repo's location:
+```bash
+npm install
+```
+To run application on your local machine type: 
+```bash
+npm run start
+```
+
+## Status
+Project is not perfect and there is lots that could be improved, but for me this project is finished. I just wanted to test this library a bit. If I forgot how to implement Redux Toolkit in the future, I will come back to this repo and copy parts of the code I need. :)
+
+## Inspiration
+Credits for:
+
+[Laith Academy](https://www.youtube.com/@laithacademy) - for idea, good tutorials and help. Thank you.
+
+And, of course as always - StackOverflow... :)
