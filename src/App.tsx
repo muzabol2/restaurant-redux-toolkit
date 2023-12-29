@@ -1,24 +1,29 @@
 import { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import "./App.css";
-import { RootState } from "./app/store";
+
 import CustomerCard from "./components/CustomerCard";
 import ReservationCard from "./components/ReservationCard";
+
+import { RootState } from "./app/store";
 import { addReservation } from "./features/reservationSlice";
+
+import "./App.css";
 
 function App() {
   const [reservationNameInput, setReservationNameInput] = useState("");
-  const reservations = useSelector((state: RootState) => state.reservations.value);
+  const reservations = useSelector(
+    (state: RootState) => state.reservations.value
+  );
   const customers = useSelector((state: RootState) => state.customer.value);
   const dispatch = useDispatch();
-  
-  const handleAddReservatrions = () => {
-    if(!reservationNameInput) {
+
+  const handleAddReservations = () => {
+    if (!reservationNameInput) {
       return;
     }
     dispatch(addReservation(reservationNameInput));
     setReservationNameInput("");
-  }
+  };
 
   return (
     <div className="App">
@@ -34,15 +39,21 @@ function App() {
           </div>
           <div className="reservation-input-container">
             <input
-              value={reservationNameInput} 
-              onChange={(e) => setReservationNameInput(e.target.value)} 
-              />
-            <button onClick={handleAddReservatrions}>Add</button>
+              value={reservationNameInput}
+              onChange={(e) => setReservationNameInput(e.target.value)}
+            />
+            <button onClick={handleAddReservations}>Add</button>
           </div>
         </div>
         <div className="customer-food-container">
           {customers.map((customer) => {
-            return <CustomerCard id={customer.id} name={customer.name} food={customer.food}/>;
+            return (
+              <CustomerCard
+                id={customer.id}
+                name={customer.name}
+                food={customer.food}
+              />
+            );
           })}
         </div>
       </div>
