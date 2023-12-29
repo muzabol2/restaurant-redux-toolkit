@@ -9,11 +9,13 @@ Project allow a restaurant to:
 * add order for each of them
 
 ## Screenshots
-When added some reservations it will look like this:
-![App Screenshot](./Screenshot1.png)
+| When added some reservations: |
+| :--: |
+| <img width="401" alt="Screenshot1" src="https://github.com/muzabol2/restaurant-redux-toolkit/assets/109333068/bc7f1f44-6db4-4622-b16a-ac9612d1f782"> |
 
-After that click on a name and add order:
-![App Second Screenshot](./Screenshot2.png)
+| After the click on a name and add order: |
+| :--: |
+| <img width="496" alt="Screenshot2" src="https://github.com/muzabol2/restaurant-redux-toolkit/assets/109333068/d7523649-a70b-4210-8907-3a1bf01e7151"> |
 
 ## Inspiration
 Credits for:
